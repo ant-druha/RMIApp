@@ -1,0 +1,11 @@
+========
+RMIApp
+========
+
+1. RMI registry start:
+Unix: rmiregistry &
+Windows: start rmiregistry
+
+2. Could be necessary to pass this to VM:
+ -Djava.rmi.server.codebase=file:C:/<path_to_classes>/
+ or "ClassNotFoundException: rmiapp.DateTime" may occur...
