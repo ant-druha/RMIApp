@@ -1,5 +1,5 @@
 RMIApp
-========
+======
 
 1. RMI registry start:
 Unix: rmiregistry &
